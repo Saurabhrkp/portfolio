@@ -1,9 +1,11 @@
+import { Link } from 'react-scroll';
+
 const Navbar = () => {
   return (
-    <nav className='navbar navbar-expand-lg navbar-light bg-light'>
-      <a className='navbar-brand' href='#'>
+    <nav className='navbar navbar-expand-lg navbar-light bg-light fixed-top shadow'>
+      <Link className='navbar-brand' to='home' spy={true} smooth={true}>
         Saurabh
-      </a>
+      </Link>
       <button
         className='navbar-toggler'
         type='button'
@@ -19,35 +21,46 @@ const Navbar = () => {
       <div className='collapse navbar-collapse' id='navbarColor03'>
         <ul className='navbar-nav ml-auto'>
           <li className='nav-item active'>
-            <a className='nav-link' href='#'>
+            <Link
+              activeClass='active'
+              className='nav-link'
+              to='home'
+              spy={true}
+              smooth={true}
+            >
               Home
               <span className='sr-only'>(current)</span>
-            </a>
+            </Link>
           </li>
           <li className='nav-item'>
-            <a className='nav-link' href='#education'>
+            <Link className='nav-link' to='education' spy={true} smooth={true}>
               Education
-            </a>
+            </Link>
           </li>
           <li className='nav-item'>
-            <a className='nav-link' href='#skills'>
+            <Link className='nav-link' to='skills' spy={true} smooth={true}>
               Skills
-            </a>
+            </Link>
           </li>
           <li className='nav-item'>
-            <a className='nav-link' href='#achievements'>
+            <Link
+              className='nav-link'
+              to='achievements'
+              spy={true}
+              smooth={true}
+            >
               Achievements
-            </a>
+            </Link>
           </li>
           <li className='nav-item'>
-            <a className='nav-link' href='#projects'>
+            <Link className='nav-link' to='projects' spy={true} smooth={true}>
               Projects
-            </a>
+            </Link>
           </li>
           <li className='nav-item'>
-            <a className='nav-link' href='#about'>
+            <Link className='nav-link' to='about' spy={true} smooth={true}>
               About
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
