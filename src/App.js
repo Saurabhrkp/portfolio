@@ -4,8 +4,8 @@ import Education from './components/Education';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Achievements from './components/Achievements';
-import Career from './components/Career';
 import About from './components/About';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -16,8 +16,8 @@ const App = () => {
       <Skills />
       <Projects />
       <Achievements />
-      <Career />
       <About />
+      <Footer />
     </>
   );
 };

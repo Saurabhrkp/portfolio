@@ -20,7 +20,7 @@ const Navbar = () => {
 
       <div className='collapse navbar-collapse' id='navbarColor03'>
         <ul className='navbar-nav ml-auto'>
-          <li className='nav-item active'>
+          <li className='nav-item'>
             <Link className='nav-link' to='home' spy={true} smooth={true}>
               Home
             </Link>
