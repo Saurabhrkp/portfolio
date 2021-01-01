@@ -26,6 +26,17 @@ const Header = () => {
                 <p className='card-title'>http://github.com/saurabhrkp</p>
               </a>
             </div>
+            <button type='button' className='btn btn-primary rounded-0 m-2'>
+              <a
+                href='https://github.com/Saurabhrkp/portfolio/raw/master/public/Resume_Sauarbh.pdf'
+                target='_blank'
+                rel='noopener noreferrer'
+                download='Resume_Sauarbh.pdf'
+                className='text-decoration-none text-white'
+              >
+                Download My Resume!
+              </a>
+            </button>
           </div>
         </div>
       </div>
