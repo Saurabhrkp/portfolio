@@ -120,6 +120,7 @@ const Projects = () => {
               <span className='badge badge-light m-1'>BCryptjs</span>
               <span className='badge badge-light m-1'>Async</span>
             </div>
+            <hr />
             <h6>Express Shop</h6>
             <p>
               Self Driven Projects <br />
