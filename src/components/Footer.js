@@ -4,7 +4,7 @@ const Footer = () => {
       <div style={{ height: '65px' }}></div>
       <footer className='page-footer font-small shadow m-0 py-3'>
         <div className='footer-copyright text-center py-3'>
-          <span>© 2020 Copyright: Saurabh Patel</span>
+          <span> Designed using Bootstrap on React</span>
           <br />
           <span> Designed By </span>
           <a
