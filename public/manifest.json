@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Portfolio",
+  "name": "Portfolio: Saurabh Patel",
+  "homepage": "https://{github_id}.github.io/{github_repo}",
   "icons": [
     {
       "src": "favicon.ico",
