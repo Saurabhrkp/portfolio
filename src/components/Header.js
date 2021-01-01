@@ -12,8 +12,8 @@ const Header = () => {
           <div className='col-sm-10 col-md-6 col-lg-8 my-auto text-center'>
             <h4 className='card-title pt-4'>Saurabh Rajeshkumar Patel</h4>
             <div>
-              <a href='mailto:sauarbhpatel230@gmail.com'>
-                <p className='card-title '>sauarbhpatel230@gmail.com</p>
+              <a href='mailto:saurabhpatel230@gmail.com'>
+                <p className='card-title '>saurabhpatel230@gmail.com</p>
               </a>
               <a href='tel:+917021373904'>
                 <p className='card-title '>+91 7021373904</p>
@@ -28,10 +28,10 @@ const Header = () => {
             </div>
             <button type='button' className='btn btn-primary rounded-0 m-2'>
               <a
-                href='https://github.com/Saurabhrkp/portfolio/raw/master/public/Resume_Sauarbh.pdf'
+                href='https://github.com/Saurabhrkp/portfolio/raw/master/public/Resume_Saurabh.pdf'
                 target='_blank'
                 rel='noopener noreferrer'
-                download='Resume_Sauarbh.pdf'
+                download='Resume_Saurabh.pdf'
                 className='text-decoration-none text-white'
               >
                 Download My Resume!
