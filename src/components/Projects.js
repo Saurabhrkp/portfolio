@@ -4,7 +4,7 @@ const Projects = () => {
       <div style={{ height: '65px' }} id='projects'></div>
       <div className='container card shadow p-4'>
         <div className='row'>
-          <div className='col px-4'>
+          <div className='col px-4 justify-content-center'>
             <h3 className='text-center'>Projects</h3>
             <hr />
             <h6>Indoor Navigation for Blind using BLE Beacon</h6>
@@ -27,9 +27,8 @@ const Projects = () => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                React Native Application
-              </a>
-              {', '}
+                React Native Application,
+              </a>{' '}
               <a
                 href='https://github.com/Saurabhrkp/Backend-For-BLE-App'
                 target='_blank'
@@ -159,6 +158,19 @@ const Projects = () => {
               </span>
               <span className='badge badge-light m-1'>BCryptjs</span>
               <span className='badge badge-light m-1'>Async</span>
+            </div>
+            <hr />
+            <div className='text-center p-2'>
+              <button type='button' className='btn btn-primary rounded-0'>
+                <a
+                  href='https://github.com/Saurabhrkp'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='text-decoration-none text-white'
+                >
+                  Visit GitHub Profile
+                </a>
+              </button>
             </div>
           </div>
         </div>
