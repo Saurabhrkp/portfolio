@@ -30,7 +30,14 @@ const Achievements = () => {
             </p>
             <h4>Event</h4>
             <h6>Workshop on Basic JavaScript, Node.js and Express.js</h6>
-            <p>Got good feedbacks from participants.</p>
+            <p>
+              Held four-day workshop in College Campus for 40 participants.
+              <br />
+              Was Instructor for three days, taught JSON, Node.js and Express.js
+              basics.
+              <br />
+              Got good feedbacks from participants.
+            </p>
           </div>
         </div>
       </div>
