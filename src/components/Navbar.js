@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className='navbar navbar-expand-lg navbar-light bg-light fixed-top shadow'>
       <Link className='navbar-brand' to='home' spy={true} smooth={true}>
-        Saurabh
+        Portfolio
       </Link>
       <button
         className='navbar-toggler'
@@ -36,6 +36,11 @@ const Navbar = () => {
             </Link>
           </li>
           <li className='nav-item'>
+            <Link className='nav-link' to='projects' spy={true} smooth={true}>
+              Projects
+            </Link>
+          </li>
+          <li className='nav-item'>
             <Link
               className='nav-link'
               to='achievements'
@@ -43,11 +48,6 @@ const Navbar = () => {
               smooth={true}
             >
               Achievements
-            </Link>
-          </li>
-          <li className='nav-item'>
-            <Link className='nav-link' to='projects' spy={true} smooth={true}>
-              Projects
             </Link>
           </li>
           <li className='nav-item'>
