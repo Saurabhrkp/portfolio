@@ -10,7 +10,7 @@ const Header = () => {
             <img src={Photo} alt='Me' className='card-body img-fluid col' />
           </div>
           <div className='col-sm-10 col-md-6 col-lg-8 my-auto text-center'>
-            <h4 className='card-title pt-4'>Saurabh Rajesh Patel</h4>
+            <h4 className='card-title pt-4'>Saurabh Rajeshkumar Patel</h4>
             <div>
               <a href='mailto:sauarbhpatel230@gmail.com'>
                 <p className='card-title '>sauarbhpatel230@gmail.com</p>
