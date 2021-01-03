@@ -3,11 +3,11 @@ const Achievements = () => {
     <>
       <div style={{ height: '65px' }} id='achievements'></div>
       <div className='container card shadow p-4'>
-        <div className='row'>
-          <div className='col px-4'>
-            <h3 className='text-center'>Achievements</h3>
-            <hr />
-            <h4>Certification</h4>
+        <h3 className='text-center'>Achievements</h3>
+        <hr />
+        <div className='row justify-content-center p-2'>
+          <div className='col-sm-12 col-md-6 col-lg-6'>
+            <h4 className='text-center'>Certification</h4>
             <h6>MongoDB Essentials - Understand the Basics of MongoDB</h6>
             <p>
               Certified By: Udemy <br />
@@ -28,7 +28,9 @@ const Achievements = () => {
               Certified By: Udemy <br />
               Year of Completion: 2019
             </p>
-            <h4>Event</h4>
+          </div>
+          <div className='col-sm-12 col-md-6 col-lg-6'>
+            <h4 className='text-center'>Event</h4>
             <h6>Workshop on Basic JavaScript, Node.js and Express.js</h6>
             <p>
               Held four-day workshop in College Campus for 40 participants.
